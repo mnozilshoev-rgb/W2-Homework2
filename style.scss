@@ -1,0 +1,130 @@
+$maxwidth: 1050px;
+
+.section1{
+    width: 100%;
+    background-color: #e4f7fe;
+    height: 550px;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    .header{
+        width: 100%;
+         max-width: $maxwidth;
+         margin: auto;
+         height: 45px;
+         border: none;
+         border-radius: 40px;
+         background-color: white;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+
+         img{
+            margin-left: 20px;
+         }
+         .nav{
+            display: flex;
+            color: #22253B;
+            font-size: 15px;
+            gap: 20px;
+         }
+         .btn{
+            padding: 7px 10px;
+            border: none;
+            border-radius: 15px;
+            background-color: #38BFF2;
+            margin-right: 20px;
+            color: white;
+         }
+         .btn1{
+            color: #22253B;
+            background-color: transparent;
+         }
+         .phimg{
+            display: none;
+         }
+
+        }
+        .s2{
+            display: flex;
+            max-width: $maxwidth;
+            margin: auto;
+            margin-top: 100px;
+            gap: 19%;
+
+            .left1{
+                width: 50%;
+                h1{
+                    font-size: 34px;
+                }
+                p{
+                    color: #22253B;
+
+                }
+                button{
+                    padding: 13px 40px;
+                    color: white;
+                    background-color: #F15525;
+                    border-radius: 30px;
+                    border: none;
+                    font-size: 16px;
+                }
+
+            }
+            .right1{
+                width: 45%;
+                margin-top: -25px;
+
+            }
+            
+        }
+
+
+}
+
+
+
+
+@media (max-width: 510px) {
+
+
+   .section1{
+    height: auto;
+    .header{
+        .nav{
+            display: none;
+        }
+        .btn1{
+            display: none;
+        }
+        .phimg{
+            display: block;
+            margin-right: 30px;
+        }
+    }
+     .s2{
+            display: flex;
+            max-width: $maxwidth;
+            margin: auto;
+            flex-direction: column;
+
+            .left1{
+                width: 90%;
+              padding: 10px;
+              align-items: center;
+              text-align: center;
+              margin-bottom: 40px;
+
+            }
+            .right1{
+                width: 90%;
+                margin-top: -25px;
+                padding: 15px;
+
+            }
+            
+        }
+   }
+
+    
+}
