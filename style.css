@@ -120,6 +120,60 @@
   font-weight: bold;
 }
 
+.section3 {
+  width: 100%;
+  max-width: 1050px;
+  background-color: white;
+  margin: auto;
+  padding-bottom: 60px;
+}
+.section3 h1 {
+  margin-top: 50px;
+  text-align: center;
+  color: #22253B;
+  margin-bottom: 50px;
+}
+.section3 .cards-row {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  margin-top: 30px;
+}
+.section3 .cards-row--bottom {
+  justify-content: center;
+}
+.section3 .card3 {
+  width: 200px;
+  height: 200px;
+  background-color: #EAF2F5;
+  border-radius: 30px;
+  padding: 30px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section3 .card3 .card3__icon {
+  margin-bottom: 15px;
+}
+.section3 .card3 .card3__icon img {
+  width: 58px;
+  height: 58px;
+}
+.section3 .card3 h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #22253B;
+  margin: 0 0 10px;
+  line-height: 18px;
+}
+.section3 .card3 p {
+  font-size: 13px;
+  color: #22253B;
+  line-height: 15px;
+  margin: 0;
+}
+
 @media (max-width: 510px) {
   .section1 {
     height: auto;
@@ -223,5 +277,63 @@
   }
   .section2 .set .right2 .b7 {
     width: 50%;
+  }
+  .section3 {
+    width: 90%;
+    max-width: 1050px;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 60px;
+  }
+  .section3 h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: #22253B;
+    margin-bottom: 50px;
+  }
+  .section3 .cards-row {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap !important;
+    width: 100%;
+    margin-top: 30px;
+    gap: 10px !important;
+  }
+  .section3 .cards-row--bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section3 .card3 {
+    width: 36%;
+    height: auto;
+    background-color: #EAF2F5;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .section3 .card3 .card3__icon {
+    margin-bottom: 15px;
+  }
+  .section3 .card3 .card3__icon img {
+    width: 58px;
+    height: 58px;
+  }
+  .section3 .card3 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #22253B;
+    margin: 0 0 10px;
+    line-height: 18px;
+  }
+  .section3 .card3 p {
+    font-size: 13px;
+    color: #22253B;
+    line-height: 15px;
+    margin: 0;
+  }
+  .section3 .cardlast {
+    width: 90% !important;
   }
 }/*# sourceMappingURL=style.css.map */
