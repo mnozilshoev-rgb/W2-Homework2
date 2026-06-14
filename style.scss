@@ -202,6 +202,35 @@ $maxwidth: 1050px;
     }
 }
 
+.section4{
+    width: 100%;
+    max-width: $maxwidth;
+    background-color: white;
+    height: auto;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    p{
+        text-align: center;
+        width: 55%;
+        margin: auto;
+        color: #22253B;
+        margin-bottom: 40px;
+    }
+    img{
+        margin-bottom: 50px;
+    }
+   
+}
+
 
 
 
@@ -399,6 +428,37 @@ $maxwidth: 1050px;
     .cardlast{
         width: 90% !important;
     }
+}
+
+
+.section4{
+    width: 90%;
+    max-width: $maxwidth;
+    background-color: white;
+    height: auto;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    p{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        color: #22253B;
+        margin-bottom: 40px;
+    }
+    img{
+        width: 80% !important;
+        margin-bottom: 50px;
+    }
+   
 }
 
  
